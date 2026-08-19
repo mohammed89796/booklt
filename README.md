@@ -1,16 +1,143 @@
-# booklt
+Booklt
 
-A new Flutter project.
+Booklt is a full-stack booking application that allows users to discover service providers, explore their services and book appointments through a simple mobile experience.
 
-## Getting Started
+Features
 
-This project is a starting point for a Flutter application.
+* User authentication
+* Browse service providers
+* View provider details
+* View available services
+* Check provider availability
+* Select a service
+* Book appointments
+* Modern Flutter UI
+* RESTful backend API
 
-A few resources to get you started if this is your first Flutter project:
+Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Mobile App
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* Flutter
+* Dart
+
+Backend
+
+* Node.js
+* Express.js
+* MongoDB
+* Mongoose
+
+Authentication
+
+* Clerk
+
+Tools
+
+* Git
+* GitHub
+* Postman
+
+Architecture
+
+The project follows a client-server architecture:
+
+Flutter App
+    |
+    v
+REST API
+    |
+    v
+Node.js / Express
+    |
+    v
+MongoDB
+
+Booking Flow
+
+Provider List
+      |
+      v
+Provider Details
+      |
+      v
+Available Services
+      |
+      v
+Select Service
+      |
+      v
+Check Availability
+      |
+      v
+Book Appointment
+
+Project Structure
+
+booklt/
+|
+├── lib/
+│   ├── screens/
+│   ├── widgets/
+│   ├── models/
+│   ├── services/
+│   └── ...
+|
+├── server/
+│   ├── models/
+│   ├── routes/
+│   ├── middleware/
+│   └── ...
+|
+└── README.md
+
+Installation
+
+Clone the repository
+
+git clone https://github.com/mohammed89796/booklt.git
+cd booklt
+
+Install Flutter dependencies
+
+flutter pub get
+
+Install backend dependencies
+
+cd server
+npm install
+
+Run the backend
+
+npm start
+
+Run the Flutter application
+
+flutter run
+
+API
+
+The backend provides RESTful APIs for:
+
+* Users
+* Authentication
+* Providers
+* Services
+* Availability
+* Bookings
+
+Future Improvements
+
+* Online payment integration
+* Push notifications
+* Booking cancellation and rescheduling
+* Provider dashboard
+* Reviews and ratings
+* Location-based provider discovery
+* Booking history
+
+Author
+
+Mohammed Magdy
+
+GitHub: https://github.com/mohammed89796
