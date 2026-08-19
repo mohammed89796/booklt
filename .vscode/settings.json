@@ -1,0 +1,7 @@
+{
+  "java.dependency.syncWithFolderExplorer": false,
+  "java.project.sourcePaths": [],
+  "java.import.gradle.enabled": false,
+  "java.import.maven.enabled": false,
+  "java.project.importOnFirstTimeStartup": "disabled"
+}
